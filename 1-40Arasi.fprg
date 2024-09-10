@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lupendos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 01:31:02 &#214;&#214;"/>
+        <attribute name="created" value="bHVwZW5kb3M7REVTS1RPUC1FODhJNFI1OzIwMjMtMTEtMjY7MDE6Mjk6MDIgw5bDljszNDQ0"/>
+        <attribute name="edited" value="bHVwZW5kb3M7REVTS1RPUC1FODhJNFI1OzIwMjMtMTEtMjY7MDE6MzE6MDIgw5bDljsxOzM1NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, i" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="i" start="1" end="40" direction="inc" step="1">
+                <if expression="i%2 == 0">
+                    <then>
+                        <assign variable="toplam" expression="toplam + i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
